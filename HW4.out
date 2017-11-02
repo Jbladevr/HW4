@@ -2925,3 +2925,56 @@
  San Francisco, CA            | Virgin America
 (563 rows)
 
+Parb B. Stored Procedure output.
+CREATE FUNCTION
+BEGIN
+       hw4sp        
+--------------------
+ <unnamed portal 1>
+(1 row)
+
+                      Airline name                       | Total number of flights | Average distance | Ratio of passengers to distance | Ratio of freight to distance | Corr for passengers to freight | Corr for passengers to distance 
+---------------------------------------------------------+-------------------------+------------------+---------------------------------+------------------------------+--------------------------------+---------------------------------
+ Aerodynamics Inc. d/b/a SkyValue d/b/a SkyValue Airways |                      12 |              615 |                               0 |                            0 |                                |              -0.331980883291508
+ Alaska Airlines Inc.                                    |                      10 |              933 |                               5 |                            7 |              0.611374525704679 |               0.391929687074386
+ Allegiant Air                                           |                      14 |              628 |                               1 |                            0 |                                |               0.578011132695525
+ American Airlines Inc.                                  |                      52 |              949 |                               6 |                            1 |              0.780344456814232 |              0.0146961942947514
+ Ameristar Air Cargo                                     |                       2 |             1239 |                               0 |                            0 |                                |                                
+ Avjet Corporation                                       |                       4 |              622 |                               0 |                            0 |                                |               0.822497766497657
+ Boutique Air                                            |                      23 |              237 |                               1 |                            0 |                                |             -0.0497520129287736
+ CFM Inc d/b/a Contour Airlines                          |                       2 |              850 |                               0 |                            0 |                                |                               1
+ Compass Airlines                                        |                       2 |              655 |                               0 |                            0 |                                |                                
+ Delta Air Lines Inc.                                    |                      67 |              954 |                               4 |                            3 |              0.798203206580898 |               0.157568974114397
+ Empire Airlines Inc.                                    |                       3 |              120 |                               0 |                          273 |                                |                                
+ Endeavor Air Inc.                                       |                       2 |             1069 |                               0 |                            0 |                                |                                
+ Envoy Air                                               |                       6 |              859 |                               2 |                            0 |              0.990803228506432 |              -0.361218465336567
+ ExpressJet Airlines Inc.                                |                      10 |              789 |                               0 |                            0 |                                |               0.283007271237826
+ Federal Express Corporation                             |                      43 |              696 |                               0 |                          781 |                                |                                
+ Frontier Airlines Inc.                                  |                     180 |              954 |                               4 |                            0 |                                |              0.0478929011133553
+ GoJet Airlines LLC d/b/a United Express                 |                      66 |              665 |                               2 |                            0 |                                |                 -0.335952732171
+ Great Lakes Airlines                                    |                      16 |              262 |                               0 |                            0 |                                |               0.398855904223737
+ Horizon Air                                             |                       2 |             1068 |                               0 |                            0 |                                |                                
+ Jet Aviation Flight Services, Inc.                      |                       6 |              909 |                               0 |                            0 |                                |              -0.120252336008854
+ JetBlue Airways                                         |                       7 |             1552 |                               2 |                            0 |                                |               0.705338101752312
+ Kalitta Charters II                                     |                       2 |              914 |                               0 |                            9 |                                |                                
+ Mesa Airlines Inc.                                      |                       7 |              603 |                               3 |                            0 |               0.56516099554069 |               0.442949996470427
+ Miami Air International                                 |                       3 |             1254 |                               0 |                            0 |                                |              -0.696318678208101
+ Omni Air International LLC                              |                       1 |              628 |                               0 |                            0 |                                |                                
+ Peninsula Airways Inc.                                  |                      13 |              216 |                               1 |                            0 |                                |               0.381919290690647
+ Republic Airlines                                       |                      73 |              719 |                               1 |                            0 |                                |             -0.0540426502359759
+ SkyWest Airlines Inc.                                   |                     341 |              666 |                               1 |                            0 |                                |              -0.147984529857558
+ Southern Air Inc.                                       |                       2 |             1069 |                               0 |                          495 |                                |                                
+ Southwest Airlines Co.                                  |                     305 |              982 |                               5 |                           10 |              0.756363058422442 |              -0.102061400840842
+ Spirit Air Lines                                        |                      22 |              918 |                               5 |                            0 |                                |              -0.128600150204173
+ Sun Country Airlines d/b/a MN Airlines                  |                      12 |              611 |                               1 |                            0 |              0.781540027674913 |               0.461644896293837
+ Swift Air, LLC                                          |                       9 |              743 |                               0 |                            0 |                                |               -0.76908735958493
+ Tradewind Aviation                                      |                       1 |              604 |                               0 |                            0 |                                |                                
+ Trans States Airlines                                   |                      79 |              528 |                               2 |                            0 |                                |             -0.0933944563224577
+ United Air Lines Inc.                                   |                     479 |             1012 |                               3 |                            4 |              0.261026148053066 |               0.118317981846665
+ United Parcel Service                                   |                      23 |              767 |                               0 |                          865 |                                |                                
+ USA Jet Airlines Inc.                                   |                       2 |             1019 |                               0 |                            0 |                                |                                
+ Via Airlines d/b/a Charter Air Transport                |                       2 |              665 |                               0 |                            0 |                                |                                
+ Virgin America                                          |                       4 |              967 |                               5 |                            0 |                                |                                
+(40 rows)
+
+COMMIT
